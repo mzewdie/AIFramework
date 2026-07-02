@@ -24,3 +24,8 @@ Planned features:
 - Claude provider
 - Conversation summarization
 - Streaming
+
+## Known limitations (Version 0.2.0)
+
+- System prompts are not yet supported.
+- Multi-turn conversations are not yet supported with the Gemini provider.

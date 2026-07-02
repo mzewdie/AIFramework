@@ -9,14 +9,14 @@ client = ClientFactory.create(config)
 
 engine = AIEngine(client)
 
-messages = [
+message = [
     {
         "role": "user",
         "content": "Hi Gemini, how were you yesterday?"
     }
 ]
 
-print(f"messages pass over: {messages}")
-answer = engine.ask(messages)
+print(f"messages pass over: {message}")
+answer = engine.ask(message)
 
 print(answer)

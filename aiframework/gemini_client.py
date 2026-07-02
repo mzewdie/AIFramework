@@ -21,6 +21,8 @@ class GeminiClient:
         contents = []
 
         for message in messages:
+            print(type(message))
+            print(message)
             contents.append(
                 
                 types.Content(
