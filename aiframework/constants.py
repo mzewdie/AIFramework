@@ -1,0 +1,13 @@
+# Default values
+
+DEFAULT_PROVIDER = "gemini"
+DEFAULT_MODEL = "gemini-2.5-flash"
+
+
+# Environment variables
+
+ENV_PROVIDER = "LLM_PROVIDER"
+ENV_MODEL = "LLM_MODEL"
+
+ENV_GEMINI_API_KEY = "GEMINI_API_KEY"
+ENV_OPENAI_API_KEY = "OPENAI_API_KEY"
